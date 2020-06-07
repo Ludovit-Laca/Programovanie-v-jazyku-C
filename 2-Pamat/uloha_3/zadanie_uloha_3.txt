@@ -1,0 +1,3 @@
+Napíšte funkciu, ktorá pre reťazec zistí, koľko malých  a koľko veľkých písmen obsahuje. Funkcia nech vráti hodnotu 0, ak ide o prázdny reťazec, inak nech vracia hodnotu 1. Pri práci so znakmi využite hlavičkový súbor ctype.h.
+
+int male_velke(char *s, int  *m, int *v) { }

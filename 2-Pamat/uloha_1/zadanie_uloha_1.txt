@@ -1,0 +1,8 @@
+Vytvorte program, v ktorom napíšete a otestujete funkcie s nasledovnými funkčnými prototypmi (hlavičkami):
+
+void pozdrav(void);
+double obvod_obdlznika(double a, double b);
+int je_trojuholnik(int a, int b, int c);
+void napln_pole_nahodne(int data[], int n, int a, int b);
+void vypis_pole(int data[], int n);
+void pomiesaj_pole(int data[], int n);

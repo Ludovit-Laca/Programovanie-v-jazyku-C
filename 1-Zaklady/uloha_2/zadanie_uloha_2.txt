@@ -1,0 +1,15 @@
+Naprogramujte hru KAMEŇ, PAPIER, NOŽNICE.
+
+Počítač hrá za oboch hráčov t. j. náhodne generuje, či hráč ukázal kameň, papier alebo nožnice.
+
+Nožnice vyhrávajú nad papierom, papier nad kameňom a kameň nad nožnicami. Hrá sa dovtedy, kým jeden z hráčov nedosiahne V víťaztiev. Priebežne vypisujte jednotlivé kolá a aktuálne skóre.
+
+
+Príklad výstupu (pre V=3):
+1. kolo: K x K -> 0:0
+2. kolo: P x K -> 1:0
+3. kolo: K x N -> 2:0
+4. kolo: N x N -> 2:0
+5. kolo: P x N -> 2:1
+6. kolo: N x P -> 3:1
+Vyhral 1. hrac!

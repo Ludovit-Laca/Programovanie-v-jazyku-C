@@ -1,0 +1,5 @@
+Simulujte dialóg počítača a používateľa. Vyskúšajte rôzne spôsoby načítavania reťazcov:
+
+scanf()
+gets()
+fgets()

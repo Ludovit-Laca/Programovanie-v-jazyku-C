@@ -1,0 +1,1 @@
+Načítajte zo vstupu reťazec znakov a pomocou vlastnej funkcie overte, či spĺňa kritérium pre bezpečné heslo (napr. obsahuje aspoň jedno malé, aspoň jedno veľké písmeno, aspoň dve číslice, aspoň jeden iný znak, je dlhšie ako 10 znakov a pod.). Využite hlavičkový súbor ctype.h.

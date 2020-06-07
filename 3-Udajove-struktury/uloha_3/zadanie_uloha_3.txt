@@ -1,0 +1,5 @@
+a) Neusporiadané pole celých čísel usporiadajte pomocou funkcie qsort() z hlavičkového súboru stdlib.h.
+
+b) Od používateľa prečítajte hodnotu, pomocou funkcie bsearch() ju v poli nájdite (alebo vypíšte, že sa v poli nenachádza).
+
+c) Upravte predchádzajúci program tak, aby vypísal počet výskytov hľadanej hodnoty. Využite pri tom smerníkovú aritmetiku!

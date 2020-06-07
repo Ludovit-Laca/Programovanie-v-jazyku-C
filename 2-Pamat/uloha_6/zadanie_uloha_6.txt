@@ -1,0 +1,5 @@
+Vytvorte  a otestujte vlastné verzie funkcií pre prácu s reťazcami. Využite smerníkovú aritmetiku.
+
+int my_strlen(const char *s);
+void my_gets(char *s, int n); // n je maximálny počet znakov čítaných zo vstupu
+void my_puts(const char *s);

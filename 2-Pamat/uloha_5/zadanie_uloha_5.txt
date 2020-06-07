@@ -1,0 +1,3 @@
+Vytvorte funkciu, ktorá vráti smerník na reťazec reprezentujúci náhodné slovo. Funkcia nech má jeden parameter - počet slabík. Vygenerované slovo vypíšte na obrazovku.
+
+char* nahodne_slovo(int pocet_slabik);

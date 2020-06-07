@@ -1,0 +1,15 @@
+Existujú rôzne spôsoby reprezentácie farieb. Vo farebnom modeli RGB definujeme úroveň červenej (R), zelenej (G) a modrej (B) zložky farby na celočíselnej škále 0..255.
+
+V prípade modelu CMYK miešame výslednú farbu zo štyroch zložiek: hodnoty cyan (C), magenta (M), yellow (Y) a black (K) sú z intervalu <0.0, 1.0>.
+
+Vytvorte program, ktorý od používateľa načíta trojicu celých čísel (RGB reprezentáciu farby) a vypíše ekvivalentné CMYK parametre.
+
+Pomôcka:
+
+white = max {red/255, green/255, blue/255}
+cyan = (white - (red/255)) / white
+magenta = (white - (green/255)) / white
+yellow = (white - (blue/255)) / white
+black = (1 - white)
+
+Ak RGB = (0, 0, 0), tak CMYK = (0, 0, 0, 1).

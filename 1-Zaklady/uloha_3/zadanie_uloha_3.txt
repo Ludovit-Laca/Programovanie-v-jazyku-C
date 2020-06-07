@@ -1,0 +1,1 @@
+Napíšte program, ktorý zobrazí všetky kódy a príslušné znaky ASCII tabuľky. Po každom desiatom znaku čakajte na stlačenie klávesu.

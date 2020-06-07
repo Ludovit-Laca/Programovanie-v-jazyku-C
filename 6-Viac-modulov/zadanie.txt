@@ -1,0 +1,5 @@
+Napíšte hlavičkový súbor vektor.h, v ktorom
+
+- definujete typ pre prácu s vektormi,
+- vymenujete hlavičky funkcií užitočných pre práci s vektormi.
+Implementujte modul vektor.c a otestujte ho v súbore main.c.

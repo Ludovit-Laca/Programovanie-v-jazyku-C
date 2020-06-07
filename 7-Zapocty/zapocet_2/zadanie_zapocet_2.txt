@@ -1,0 +1,45 @@
+- Úloha 1 = 6 b
+  - definícia údajového typu štruktúra = 1 b
+  - čítanie zo súboru do poľa = 3 b
+  - dynamické alokovanie pamäte = 2 b
+
+- Úloha 2 = 6 b
+  - prvá porovnávacia funkcia = 2 b
+  - druhá porovnávacia funkcia = 2 b
+  - správne použitie qsort() = 1 b
+  - výpis = 1 b
+
+- Úloha 3 = 3 b
+  - správne zavolanie bsearch() = 1 b
+  - spracovanie hodnoty vrátenej vyhľadávacou funkciou = 2 b
+
+- Úloha 4 = 3 b
+  - za riešenie bez smerníkovej aritmetiky maximálne 1 b
+
+- Úloha 5 = 2 b
+  - funkcia s predpísanými parametrami zapisujúca správny výstup do súboru = 2b
+
+Maximálny počet bodov za semester bol 30 (za praktické testy).
+
+Výsledná známka sa určila podľa stupnice:
+
+aspoň 27 bodov = A
+aspoň 24 bodov = B
+aspoň 20 bodov = C
+aspoň 17 bodov = D
+aspoň 15 bodov = E
+menej ako 15 bodov = FX
+
+Prehľad chýb, ktoré v riešeniach urobili viacerí:
+
+- v definícii typu nebol reťazec definovaný ako pole charov
+- lokálna smerniková premenná prekrývala globálne pole
+- pole bolo len statické
+- pri načítavaní zo súboru sa pre double hodnoty malo použiť %lf, pre reťazec nebolo potrebné použiť adresový operátor
+- prvý riadok súboru ste nebrali do úvahy, v kóde ste pracovali napevno s 5 prvkovým poľom
+- málokto využili informáciu o počte miest/projektov pri načítavaní zo súboru (dal sa použiť aj cyklus for - to len na margo krásy riešenia, nejde o chybu)
+- porovnávacia funkcia chýbala, nemala správnu hlavičku alebo nevracala správnu hodnotu, niektorí sa snažili porovnávať čísla pomocou strcmp()
+- qsort() nebol zavolaný so správnymi parametrami
+- funkcia bsearch()  nemala ako prvý parameter adresu premennej typu štruktúra, návratová hodnota nebola správne pretypovaná, chýbalo zistenie pozície prvku pomocou rozdielu smerníkov alebo správa o tom, že sa prvok nenašiel
+- pri hľadaní prvého či posledného výskytu sa nevyužila smerníková aritmetika - zbytočne sa išlo vo for cykle znovu cez pole
+- funkcia zapisujúca do súboru nemala predpísané parametre, pracovala s konštantným počtom prvkov a pod.

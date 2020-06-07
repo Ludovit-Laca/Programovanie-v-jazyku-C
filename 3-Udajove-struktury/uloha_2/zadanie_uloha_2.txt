@@ -1,0 +1,3 @@
+Do poľa štruktúr TUdalost uložte informácie o trvaní udalostí (názov udalosti, kedy začne a kedy skončí).
+
+Zistite, či sa konkrétna udalosť zadaná používateľom (zadáme jej názov) prekrýva s niektorou inou udalosťou uloženou v poli.  Ak áno, vypíšte všetky udalosti, pri ktorých je prekryv.

@@ -1,0 +1,5 @@
+Napíšte funkciu, ktorá  alokuje pamäť pre dvojrozmerné pole celých čísel s m riadkami a n stĺpcami a inicializuje jeho prvky na hodnotu 0.
+
+Funkcia nech vráti smerník na vytvorenú štruktúru.
+
+int **pole2d(int m, int n);

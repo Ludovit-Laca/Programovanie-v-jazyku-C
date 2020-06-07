@@ -1,0 +1,10 @@
+- Úloha 1 = 6 b
+  - vstup/výstup, premenná = 2 b
+  - generovanie náhodnej hodnoty = 2 b
+  - riadiace konštrukcie = 2 b
+
+- Úloha 2 = 4 b
+  - porozumenie problému, rozšírenie základného riešenia = 2 b
+  - funkčné a správne riešenie použiteľné na realizovanie experimentov = 2 b
+
+- Úloha 3 (nepovinný bonus) = 2 b

@@ -1,0 +1,3 @@
+Napíšte program, ktorý naplní n prvkové pole náhodnými celými  číslami z intervalu <a, b> a vypíše jeho obsah.
+
+Potom zistite, koľko existuje vo vstupnom  poli takých prvkov, že sú menšie ako oba ich susedné prvky.
